@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1224078194/es/foto/azul-abstracto-y-negro-son-patrones-de-luz-con-el-degradado-es-el-con-la-pared-de-suelo-de.jpg?s=170667a&w=0&k=20&c=OdNCAdykm71VKYUYmBYsDR9xC4Cn-4ilZLnP7GtHtDw=');
+	 background-size: cover;
+     transition: background-image 0.3s;
+	 ackground-size: cover;
+}
+
+.header {
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg');
+	background-size: cover;
+    color: white;
+    padding: 24px;
+    text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+	color: white;
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg');
+	background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.presentacion{
+	display: flex;
+	max-width: 800px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 20px auto;
+	padding: 20px;
+	background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg');
+	background-size: cover;
+	color: white; 
+}
+.izquierda{
+	flex: 1;
+	padding-right: 20px;
+}
+.derecha{
+	flex: 1;	
+}
+name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo para el texto */
+.robot-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilo para la imagen */
+.robot-image {
+    max-width: 100%;
+    height: auto;
+}
+/* Estilo para la caja que deseas centrar */
+.center-box {
+    max-width: 800px; /* Ancho de la caja */
+    margin: 20px auto;; /* Alto de la caja */
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg'); /* Color de fondo de la caja */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interno */
+    
+    /* Centrar la caja en la página */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color:#FFF;
+	background-size: cover;
+    transition: background-image 0.3s;
+}
+.left-box{
+max-width: 800px; /* Ancho de la caja */
+    margin: 20px auto;; /* Alto de la caja */
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg'); /* Color de fondo de la caja */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interno */
+    
+    /* Centrar la caja en la página */
+    position: absolute;
+    top: 17%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+	color:#FFF;
+	background-size: cover;
+    transition: background-image 0.3s;
+}
+.right-box{
+	max-width: 1000px; /* Ancho de la caja */
+    margin: 20px auto; /* Alto de la caja */
+	    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg'); /* Color de fondo de la caja */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interno */
+    
+    /* Centrar la caja en la página */
+    position: absolute;
+    top: 17%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+	color:#FFF;
+	background-size: cover;
+    transition: background-image 0.3s;
+}
+/* Estilo para el botón personalizado */
+.custom-button {
+    background-color: #00C; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Estilo para el botón cuando el cursor está encima */
+.custom-button:hover {
+    background-color: #009; /* Cambia el color de fondo al pasar el cursor */
+}
+.left-down{
+max-width: 800px; /* Ancho de la caja */
+    margin: 20px auto;; /* Alto de la caja */
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg'); /* Color de fondo de la caja */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interno */
+    
+    /* Centrar la caja en la página */
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+	color:#FFF;
+	background-size: cover;
+    transition: background-image 0.3s;
+}
+.right-down{
+max-width: 800px; /* Ancho de la caja */
+    margin: 20px auto;; /* Alto de la caja */
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg'); /* Color de fondo de la caja */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interno */
+    
+    /* Centrar la caja en la página */
+    position: absolute;
+    top: 80%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+	color:#FFF;
+	background-size: cover;
+    transition: background-image 0.3s;
+}
+.left-middle{
+max-width: 800px; /* Ancho de la caja */
+    margin: 20px auto;; /* Alto de la caja */
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg'); /* Color de fondo de la caja */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interno */
+    
+    /* Centrar la caja en la página */
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+	color:#FFF;
+	background-size: cover;
+    transition: background-image 0.3s;
+}
+.right-middle{
+max-width: 800px; /* Ancho de la caja */
+    margin: 20px auto;; /* Alto de la caja */
+    background-image: url('https://img.freepik.com/vector-premium/efecto-luz-color-neon-azul-abstracto-horizontal-sobre-fondo-negro-fondo-disenos_518299-501.jpg'); /* Color de fondo de la caja */
+    text-align: center; /* Alineación de texto en el centro */
+    padding: 20px; /* Espaciado interno */
+    
+    /* Centrar la caja en la página */
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+	color:#FFF;
+	background-size: cover;
+    transition: background-image 0.3s;
+}
+.right-box:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */
+}
+.left-box:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */
+
+}
+.right-down:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */
+}
+.left-down:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */
+}
+.right-middle:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */
+}
+.left-middle:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */
+}
+.center-box:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */
+}
+body:hover {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-formas-azul-metalico_23-2148239789.jpg'); /* Nueva imagen de fondo al pasar el ratón */ /* Cambia el cursor al pasar el ratón */
+}
+.custom-txt {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+]
